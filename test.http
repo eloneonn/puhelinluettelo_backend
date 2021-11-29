@@ -2,18 +2,25 @@ POST http://localhost:3001/api/persons/
 Content-Type: application/json
 
 {
-    "name": "Liisa Marttinen",
-    "number": "040-234563"
+    "name": "Sandra Bullock",
+    "number": "050-4362345"
 }
 
 ###
 GET http://localhost:3001/api/persons
 
 ###
-GET http://localhost:3001/api/persons/61a492fb055979ce0a9ddf74
+GET http://localhost:3001/api/persons/21
 
 ###
 DELETE http://localhost:3001/api/persons/2
 
 ###
 
+PUT http://localhost:3001/api/persons/61a49cd4dc09abd72e542c34
+Content-Type: application/json
+
+{
+    "name": "Sandra Bullock",
+    "number": "1"
+    }

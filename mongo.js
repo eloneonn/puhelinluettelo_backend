@@ -1,3 +1,5 @@
+/* !NOT IN USE, ONLY FOR TESTING
+
 const mongoose = require('mongoose')
 
 const personSchema = new mongoose.Schema({
@@ -57,3 +59,4 @@ const person = new Person ({
     number: '123 4567891'
 })
 
+*/
